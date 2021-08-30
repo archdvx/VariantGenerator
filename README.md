@@ -31,7 +31,7 @@ Result: You should see the VariantGenerator Workbench available in the Workbench
 
 `git clone https://github.com/archdvx/VariantGenerator.git`
 
-or [download](https://github.com/archdvx/VariantGenerator/archive/refs/heads/main.zip) and unzip
+or [download](https://github.com/archdvx/VariantGenerator/archive/refs/heads/master.zip) and unzip
 
 to
 
