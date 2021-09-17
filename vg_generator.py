@@ -26,6 +26,7 @@
 from PySide import QtCore, QtGui
 import os
 import csv
+import _csv
 import FreeCAD
 from vg_assignment import AssignmentEdit
 from vg_csvpreview import CsvPreview
@@ -441,26 +442,35 @@ class Generator(QtGui.QDialog):
                 translate("VG", "Path of CSV file is empty"))
             self.csv_select()
             if self.csv == "":
-                return
+                return False
         if not os.path.isfile(self.csv):
             QtGui.QMessageBox.warning(
                 self, translate("VG", "Warning"),
                 translate("VG", "File {0} doesn't exist".format(self.csv)))
             self.csv_select()
-            return
+            return False
         with open(self.csv) as f:
-            d = csv.Sniffer().sniff(f.read(1024))
-            f.seek(0)
-            reader = csv.reader(f, d)
-            self.variables = next(reader)
+            try:
+                d = csv.Sniffer().sniff(f.read(1024))
+                f.seek(0)
+                reader = csv.reader(f, d)
+                self.variables = next(reader)
+            except _csv.Error:
+                QtGui.QMessageBox.critical(
+                    self, translate("VG", "Error"),
+                    translate("VG", "Error during loading CSV file, problem with delimiter")
+                )
+                return False
         self.fname.clear()
         for v in self.variables:
             self.fname.addItem(v)
         self.fname.setEnabled(True)
+        return True
 
     def add_row(self):
-        while len(self.variables) == 0:
-            self.load_variables()
+        if len(self.variables) == 0:
+            if not self.load_variables():
+                return
         if not some_to_assignment(self.togenerate):
             QtGui.QMessageBox.warning(
                 self, translate("VG", "Warning"),

@@ -25,9 +25,9 @@
 __title__ = "VariantGenerator"
 __author__ = "David Vachulka"
 __url__ = "https://github.com/archdvx/VariantGenerator"
-__date__ = "2021.03.13"
-__version__ = "1.00"
-version = 1.00
+__date__ = "2021.09.17"
+__version__ = "1.01"
+version = 1.01
 
 from PySide import QtCore, QtGui
 import os

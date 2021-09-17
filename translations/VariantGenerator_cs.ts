@@ -4,12 +4,12 @@
 <context>
     <name>BodyGenerator</name>
     <message>
-        <location filename="vg_cmd.py" line="63"/>
+        <location filename="vg_cmd.py" line="62"/>
         <source>Generate files from &amp;bodies</source>
         <translation>Generovat soubory z &amp;těl</translation>
     </message>
     <message>
-        <location filename="vg_cmd.py" line="67"/>
+        <location filename="vg_cmd.py" line="66"/>
         <source>Generate files from bodies by variables from CSV file</source>
         <translation>Generuje soubory z těl pomocí proměnných z CSV souboru</translation>
     </message>
@@ -17,12 +17,12 @@
 <context>
     <name>PartGenerator</name>
     <message>
-        <location filename="vg_cmd.py" line="96"/>
+        <location filename="vg_cmd.py" line="95"/>
         <source>Generate files from &amp;parts</source>
         <translation>Generovat soubory z &amp;dílů</translation>
     </message>
     <message>
-        <location filename="vg_cmd.py" line="100"/>
+        <location filename="vg_cmd.py" line="99"/>
         <source>Generate files from parts by variables from CSV file</source>
         <translation>Generuje soubory z dílů pomocí proměnných z CSV souboru</translation>
     </message>
@@ -30,7 +30,7 @@
 <context>
     <name>VG</name>
     <message>
-        <location filename="vg_generator.py" line="140"/>
+        <location filename="vg_generator.py" line="141"/>
         <source>CSV Variable</source>
         <translation>CSV Proměnná</translation>
     </message>
@@ -75,17 +75,17 @@
         <translation>Generátor variant těl</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="621"/>
+        <location filename="vg_generator.py" line="631"/>
         <source>Information</source>
         <translation>Informace</translation>
     </message>
     <message>
-        <location filename="vg_cmd.py" line="74"/>
+        <location filename="vg_cmd.py" line="73"/>
         <source>Document hasn&apos;t any body</source>
         <translation>Dokument nemá žádné tělo</translation>
     </message>
     <message>
-        <location filename="vg_cmd.py" line="107"/>
+        <location filename="vg_cmd.py" line="106"/>
         <source>Document hasn&apos;t any part</source>
         <translation>Dokument nemá žádný díl</translation>
     </message>
@@ -95,234 +95,234 @@
         <translation>Náhled CSV</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="83"/>
+        <location filename="vg_generator.py" line="84"/>
         <source>Select CSV file</source>
         <translation>Vybrat CSV soubor</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="88"/>
+        <location filename="vg_generator.py" line="89"/>
         <source>Output directory:</source>
         <translation>Adresář pro výstup:</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="94"/>
+        <location filename="vg_generator.py" line="95"/>
         <source>Select Output directory</source>
         <translation>Vybrat adresář pro výstup</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="101"/>
+        <location filename="vg_generator.py" line="102"/>
         <source>&amp;Preview CSV</source>
         <translation>Ná&amp;hled CSV</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="109"/>
+        <location filename="vg_generator.py" line="110"/>
         <source>Variable used to
 file name:</source>
         <translation>Proměnná pro
 jméno souboru:</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="115"/>
+        <location filename="vg_generator.py" line="116"/>
         <source>Load variables from &amp;CSV</source>
         <translation>Načíst proměnné z &amp;CSV</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="121"/>
+        <location filename="vg_generator.py" line="122"/>
         <source>Bodies to generate:</source>
         <translation>Těla pro vygenerování:</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="123"/>
+        <location filename="vg_generator.py" line="124"/>
         <source>Parts to generate:</source>
         <translation>Díly pro vygenerování:</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="140"/>
+        <location filename="vg_generator.py" line="141"/>
         <source>FreeCAD Attribute</source>
         <translation>FreeCAD Atribut</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="148"/>
+        <location filename="vg_generator.py" line="149"/>
         <source>&amp;Add</source>
         <translation>&amp;Přidat</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="153"/>
+        <location filename="vg_generator.py" line="154"/>
         <source>&amp;Modify</source>
         <translation>U&amp;pravit</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="159"/>
+        <location filename="vg_generator.py" line="160"/>
         <source>&amp;Delete</source>
         <translation>&amp;Smazat</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="165"/>
+        <location filename="vg_generator.py" line="166"/>
         <source>&amp;Clear all</source>
         <translation>&amp;Vyčistit</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="171"/>
+        <location filename="vg_generator.py" line="172"/>
         <source>Output file format:</source>
         <translation>Formát souboru pro výstup:</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="173"/>
+        <location filename="vg_generator.py" line="174"/>
         <source>STEP with colors (*.stp)</source>
         <translation>STEP s barvami (*.stp)</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="174"/>
+        <location filename="vg_generator.py" line="175"/>
         <source>IGES format (*.iges)</source>
         <translation>IGES formát (*.iges)</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="175"/>
+        <location filename="vg_generator.py" line="176"/>
         <source>VRML V2.0 (*.wrl)</source>
         <translation>VRML V2.0 (*.wrl)</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="176"/>
+        <location filename="vg_generator.py" line="177"/>
         <source>STL Mesh (*.stl)</source>
         <translation>STL Mesh (*.stl)</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="177"/>
+        <location filename="vg_generator.py" line="178"/>
         <source>Alias Mesh (*.obj)</source>
         <translation>Alias Mesh (*.obj)</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="179"/>
+        <location filename="vg_generator.py" line="180"/>
         <source>Open Inventor (*.iv)</source>
         <translation>Open Inventor (*.iv)</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="181"/>
+        <location filename="vg_generator.py" line="182"/>
         <source>X3D Extensible 3D (*.x3d)</source>
         <translation>X3D Extensible 3D (*.x3d)</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="183"/>
+        <location filename="vg_generator.py" line="184"/>
         <source>JavaScript Object Notation (*.json)</source>
         <translation>JavaScript Object Notation (*.json)</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="184"/>
+        <location filename="vg_generator.py" line="185"/>
         <source>WebGL file (*.html)</source>
         <translation>WebGL soubor (*.html)</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="186"/>
+        <location filename="vg_generator.py" line="187"/>
         <source>WebGL/X3D (*.xhtml)</source>
         <translation>WebGL/X3D (*.xhtml)</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="187"/>
+        <location filename="vg_generator.py" line="188"/>
         <source>Portable Document Format (*.pdf)</source>
         <translation>Portable Document Format (*.pdf)</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="192"/>
+        <location filename="vg_generator.py" line="193"/>
         <source>&amp;Load settings</source>
         <translation>&amp;Načíst nastavení</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="194"/>
+        <location filename="vg_generator.py" line="195"/>
         <source>&amp;Save settings</source>
         <translation>&amp;Uložit nastavení</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="201"/>
+        <location filename="vg_generator.py" line="202"/>
         <source>&amp;Generate</source>
         <translation>&amp;Generovat</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="228"/>
+        <location filename="vg_generator.py" line="229"/>
         <source>Open settings file</source>
         <translation>Otevřít soubor s nastavením</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="367"/>
+        <location filename="vg_generator.py" line="368"/>
         <source>Settings Files (*.vcg)</source>
         <translation>Soubory nastaveni (*.vcg)</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="555"/>
+        <location filename="vg_generator.py" line="565"/>
         <source>Warning</source>
         <translation>Varování</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="314"/>
+        <location filename="vg_generator.py" line="315"/>
         <source>Settings loaded</source>
         <translation>Nastavení načteno</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="521"/>
+        <location filename="vg_generator.py" line="531"/>
         <source>Path of CSV file is empty</source>
         <translation>Cesta k CSV souboru je prázdná</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="360"/>
+        <location filename="vg_generator.py" line="361"/>
         <source>Settings wasn&apos;t saved</source>
         <translation>Nastavení nebylo uloženo</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="535"/>
+        <location filename="vg_generator.py" line="545"/>
         <source>Path of Output Directory is empty</source>
         <translation>Cesta k Adresáři pro výstup je prázdná</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="542"/>
+        <location filename="vg_generator.py" line="552"/>
         <source>Path of Output Directory isn&apos;t writable</source>
         <translation>Cesta k Adresáři pro výstup nemá povolen zápis</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="549"/>
+        <location filename="vg_generator.py" line="559"/>
         <source>Select variable used to file name first</source>
         <translation>Vyberte nejdřív proměnnou použitou pro jméno souboru</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="556"/>
+        <location filename="vg_generator.py" line="566"/>
         <source>Any body selected</source>
         <translation>Není vybráno žádné tělo</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="556"/>
+        <location filename="vg_generator.py" line="566"/>
         <source>Any part selected</source>
         <translation>Není vybrán žádný díl</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="364"/>
+        <location filename="vg_generator.py" line="365"/>
         <source>Select settings file</source>
         <translation>Vybrat soubor nastavení</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="400"/>
+        <location filename="vg_generator.py" line="401"/>
         <source>Open CSV file</source>
         <translation>Otevřít CSV soubor</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="403"/>
+        <location filename="vg_generator.py" line="404"/>
         <source>CSV Files (*.csv)</source>
         <translation>CSV Soubory (*.csv)</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="411"/>
+        <location filename="vg_generator.py" line="412"/>
         <source>Output Directory</source>
         <translation>Adresář pro výstup</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="467"/>
+        <location filename="vg_generator.py" line="477"/>
         <source>Nothing to assignment</source>
         <translation>Nic k přiřazení</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="501"/>
+        <location filename="vg_generator.py" line="511"/>
         <source>Question</source>
         <translation>Dotaz</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="622"/>
+        <location filename="vg_generator.py" line="632"/>
         <source>Finished</source>
         <translation>Hotovo</translation>
     </message>
@@ -332,9 +332,20 @@ jméno souboru:</translation>
         <translation>Generátor variant dílů</translation>
     </message>
     <message>
-        <location filename="vg_generator.py" line="77"/>
+        <location filename="vg_generator.py" line="78"/>
         <source>CSV file:</source>
         <translation>CSV soubor:</translation>
+    </message>
+    <message>
+        <location filename="vg_generator.py" line="460"/>
+        <source>Error</source>
+        <translatorcomment>Během načítání CSV souboru</translatorcomment>
+        <translation>Chyba</translation>
+    </message>
+    <message>
+        <location filename="vg_generator.py" line="462"/>
+        <source>Error during loading CSV file, problem with delimiter</source>
+        <translation>Během načítání CSV souboru nastala chyba, problém s oddělovačem</translation>
     </message>
 </context>
 </TS>
